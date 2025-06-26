@@ -3,6 +3,7 @@
   become: yes
   tasks:
     - name: Install git controller machine
+      # teste
       ansible.builtin.apt:
         name: git
         state: present
